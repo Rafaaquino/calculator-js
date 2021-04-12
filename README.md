@@ -1,2 +1,2 @@
 # calculator-js
-calculator with NODE.j,  Jasmine and Travis CI
+calculator with NODE.js,  Jasmine and Travis CI
