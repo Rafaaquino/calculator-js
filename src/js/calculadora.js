@@ -1,7 +1,7 @@
 var Calculadora = {
 	adicionar: function(num1, num2){
 
-		if (isNaN(num1)){
+		if (isNaN(num1) || isNaN(num2)){
 			return 0
 		}
 		
@@ -12,7 +12,7 @@ var Calculadora = {
 
 	subtrair: function(num1, num2){
 
-		if (isNaN(num1)){
+		if (isNaN(num1) || isNaN(num2)){
 			return 0
 		}
 		
@@ -38,6 +38,11 @@ var Calculadora = {
 	},
 
 	multiplicar: function(num1, num2){
+		
+		if (isNaN(num1) || isNaN(num2) ){
+			return 0
+		}
+
 		return num1 * num2
 	},
 };
