@@ -21,4 +21,9 @@ describe("Suite de testes de adição", function(){
 
 		expect(Calculadora.adicionar(undefined, 10 )).toEqual(0);
 	});
+
+	it("deve retornar 0 para um valor 1 invalido", function(){
+
+		expect(Calculadora.adicionar(undefined, 10 )).toEqual(0);
+	});
 });
